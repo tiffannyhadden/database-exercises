@@ -13,3 +13,11 @@ CREATE TABLE albums (
 DESCRIBE albums;
 
 SELECT * from albums;
+INSERT INTO codeup_test_db.albums (artist, Name, release_date, sales, genre)
+VALUES ('Shakira', 'Shakira', '2002', '10,000,000.00', 'latin pop');
+DESCRIBE albums;
+# SHOW TABLE albums;
+SELECT artist FROM albums;
+INSERT INTO codeup_test_db.albums (artist, Name, release_date, sales, genre)
+VALUES ('Masego', 'Masego', '2002', '3.5', 'latin pop');
+SELECT artist FROM albums;
